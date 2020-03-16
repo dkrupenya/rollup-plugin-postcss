@@ -39,6 +39,7 @@ export default (options = {}) => {
     to: options.to,
     /** PostCSS options */
     postcss: {
+      firstPlugin: options.firstPlugin,
       parser: options.parser,
       plugins: postcssPlugins,
       syntax: options.syntax,
